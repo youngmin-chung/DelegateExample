@@ -25,3 +25,8 @@
 * Delegates can also be used in “anonymous methods” invocation.
 * Anonymous Methods(C# 2.0) and Lambda expressions(C# 3.0) are compiled to delegate types in certain contexts. 
   Sometimes, these features together are known as anonymous functions.
+### Important Points About Delegates:
+* Action<> and Func<> Delegates
+  - Action<> Delegates: Accepts one or more arguments without a return value
+  - Func<> Delegate: Accepts oe or more argumets and returns a value. Final paramether of Func<> is always the return value of the method
+    ex. Func<int, int, string> | return value is string!!!
